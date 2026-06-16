@@ -5,18 +5,33 @@ h1{
     background-color: rgb(39, 23, 0);
 }
 h2{
-    color:rgb(78, 56, 36);
+    color:rgb(255, 123, 0);
     font-size: 30px;
     text-align: center;
-}
-body{
-    background-color: rgb(51, 27, 0);
-}
-img{
-    width: 45.6%;
+    background-color: black;
 }
 h3{
-    color:rgb(179, 89, 5);
-    font-size: 30px;
+    color: aliceblue;
+    background-color: black;
+}
+body{
+    background-image: url(https://www.gif-vif.com/trending/tuff-niche-baby-gif.gif);
+    background-size: 300px;
+}
+img{
+    width: 200px;
+}
+footer{
+    background-color: black ;
+    color: aliceblue;
+}
+.imagem{
     text-align: center;
+    background-color: rgba(156, 13, 156, 0.349);
+    width: 300px;
+    margin: auto;
+    border-style: dashed;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    border-color: aliceblue;
 }
