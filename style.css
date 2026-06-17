@@ -15,8 +15,8 @@ h3{
     background-color: black;
 }
 body{
-    background-image: url(https://www.gif-vif.com/trending/tuff-niche-baby-gif.gif);
-    background-size: 300px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2a-3tUF_9GCmbX6wgDE8tRXpOlzOG5VC1QMZTJYmkfyiigeBtfNXvSZPHWsszTgg8gCwU-RnSFsFsEBy7nzh6yxwiWD3KtoP3OZntiH2wJN2Y5Z1KNN0H_zksa92slhVd7aweT3RVfOI/s1600/gifs+michael+jackson+dan%C3%A7ando+);
+    background-size: 100%;
 }
 img{
     width: 200px;
@@ -27,11 +27,11 @@ footer{
 }
 .imagem{
     text-align: center;
-    background-color: rgba(156, 13, 156, 0.349);
+    background-color: blanchedalmond;
     width: 300px;
-    margin: auto;
-    border-style: dashed;
+    margin:auto;
+    border-style: dotted;
     border-radius: 50px;
     margin-bottom: 50px;
-    border-color: aliceblue;
+    border-color: black;
 }
