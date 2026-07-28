@@ -4,8 +4,8 @@ header{
 }
 nav{
     position: absolute;
-    top: 110px;
-    right:  0;
+    top: 80px;
+    right:  0px;
 }
 nav li {
     display: inline;
@@ -19,8 +19,14 @@ nav a{
     text-decoration: none;
 }
 .caixa{
-    position: relative
-    width: 940px;
-    height: 100px;
+    position: relative;
+    width: 1480px;
+    height: 150px;
     margin: 0 auto;
+}
+h1 img{
+    width: 150px;
+    position: absolute;
+    top: 80px;
+    left:  0px;
 }
