@@ -1,37 +1,109 @@
-h1{
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+header{
+    background-color: burlywood;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 80px;
+    right:  0px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 1480px;
+    height: 150px;
+    margin: 0 auto;
+}
+h1 img{
+    width: 150px;
+    position: absolute;
+    top: 80px;
+    left:  0px;
+}
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
     text-align: center;
-    background-color: rgb(39, 23, 0);
+    width: 30%;
+    vertical-align: top;
+    margin: 15px 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-h2{
-    color:rgb(255, 123, 0);
-    font-size: 30px;
-    text-align: center;
-    background-color: black;
-}
-h3{
-    color: aliceblue;
-    background-color: black;
-}
-body{
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2a-3tUF_9GCmbX6wgDE8tRXpOlzOG5VC1QMZTJYmkfyiigeBtfNXvSZPHWsszTgg8gCwU-RnSFsFsEBy7nzh6yxwiWD3KtoP3OZntiH2wJN2Y5Z1KNN0H_zksa92slhVd7aweT3RVfOI/s1600/gifs+michael+jackson+dan%C3%A7ando+);
-    background-size: 100%;
-}
-img{
+.servicos img{
     width: 200px;
+    margin: 10px 0px;
+}
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover {
+    color:chocolate;
+    text-decoration: underline;
+}
+.servicos li:hover {
+    color: chocolate;
+}
+.servicos li:active {
+    border-color: darkgreen;
+}
+.servicos li:hover h2{
+    font-size: 35px;
 }
 footer{
-    background-color: black ;
-    color: aliceblue;
-}
-.imagem{
     text-align: center;
-    background-color: blanchedalmond;
-    width: 300px;
-    margin:auto;
-    border-style: dotted;
-    border-radius: 50px;
-    margin-bottom: 50px;
-    border-color: black;
+    background-color: burlywood;
+    padding: 40px;
+}
+footer img{
+    width: 150px;
+}
+.copyright{
+    color: black;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
