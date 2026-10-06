@@ -151,3 +151,20 @@ form label, form p{
 
    
     }
+.imagem{
+    text-align: center;
+}
+.mapa{
+    text-align: center;
+    color: burlywood;
+    text-decoration: wavy;
+    font-family: "Libre Caslon Condensed", serif;
+}
+.video{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+    color:burlywood;
+    background-color: black;
+}
